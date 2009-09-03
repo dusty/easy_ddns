@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'easy_ddns'
+
+easy = EasyDdns.new
+puts <<-EOD
+
+Private IP : #{easy.private_ip}
+Public IP  : #{easy.public_ip}
+
+EOD

@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.summary = "DDNS Updater for dnsmadeeasy.com" 
   s.files = Dir["{bin,test,lib}/**/*"]
   s.require_path = "lib" 
-  s.has_rdoc = true 
+  s.has_rdoc = false 
   s.extra_rdoc_files = ["README.txt"]
   s.executables = ['easy_ddns','easy_ips']
   s.rubyforge_project = "none"

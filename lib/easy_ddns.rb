@@ -2,7 +2,7 @@ require 'net/http'
 require 'open-uri'
 require 'yaml'
 class EasyDdns
-  VERSION = '0.0.1'
+  VERSION = '0.0.3'
   attr_reader :config
   def self.update
     ddns = EasyDdns.new
